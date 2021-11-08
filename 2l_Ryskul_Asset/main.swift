@@ -34,7 +34,7 @@ while let n_string = readLine() {
         }
     }
 }
-
+print("\n")
 // MARK: - задание 2
 func is_divide_by_three(_ n: Int) -> Bool {
     if n % 3 == 0 {
@@ -62,7 +62,7 @@ while let n_string = readLine() {
         }
     }
 }
-
+print("\n")
 // MARK: - задание 3
 var array: [Int] = []
 
@@ -71,7 +71,7 @@ for i in 1...100 {
 }
 print("<---задание 3--->")
 print("Массив из 100 элементов:\n\(array)")
-
+print("\n")
 // MARK: - задание 4
 var i = 0
 while (i < array.count) {
@@ -83,7 +83,7 @@ while (i < array.count) {
 }
 print("<---задание 4--->")
 print("Массив из задания 4:\n\(array)")
-
+print("\n")
 // MARK: - задание 5
 func fibonacci_number(by step: Int) -> Int {
     var n1 = 0
@@ -103,6 +103,7 @@ for i in 1 ... 48 {
 }
 print("<---задание 5--->")
 print("Массив из последовательностей чисел Фибоначчи:\n\(fib_sequence)")
+print("\n")
 // MARK: - задание 6
 //функция, которая возвращает массив чисел не делящихся на prime
 func not_divisibles(prime: Int, arr: [Int]) -> [Int] {
@@ -132,6 +133,6 @@ while nums.count > 1 {
 }
 print("<---задание 6--->")
 print("Массив из простых чисел:\n\(primes)")
-
+print("\n")
 
 
